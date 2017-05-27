@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Tokyo, Japan"
+            argument = "Winnipeg, Manitoba"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
