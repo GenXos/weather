@@ -10,3 +10,18 @@ import Foundation
 
 print("Hello, World!")
 
+//for arg in CommandLine.arguments {
+//    
+//    print(arg)
+//}
+
+let weather = Weather()
+
+while !weather.finished {
+    
+    if !weather.apiRequest {
+        
+        weather.getTemp(location: "Tokyo, Japan")
+        weather.apiRequest = true
+    }
+}
